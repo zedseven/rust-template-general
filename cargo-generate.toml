@@ -1,0 +1,9 @@
+[placeholders.description]
+type = "string"
+prompt = "Description?"
+
+[conditional.'crate_type == "lib"']
+ignore = [ "src/main.rs" ]
+
+[conditional.'crate_type == "bin"']
+ignore = [ "src/lib.rs" ]
