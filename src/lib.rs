@@ -2,8 +2,6 @@
 
 // Linting rules
 #![warn(
-	missing_crate_level_docs,
-	missing_docs,
 	clippy::complexity,
 	clippy::correctness,
 	clippy::perf,
@@ -11,11 +9,11 @@
 	clippy::suspicious,
 	clippy::pedantic,
 	clippy::filetype_is_file,
-	clippy::str_to_string
+	clippy::str_to_string,
+	missing_docs,
+	rustdoc::missing_crate_level_docs
 )]
 #![allow(
-	dead_code,
-	unused_macros,
 	clippy::cast_possible_truncation,
 	clippy::cast_possible_wrap,
 	clippy::cast_precision_loss,
@@ -24,5 +22,7 @@
 	clippy::module_name_repetitions,
 	clippy::similar_names,
 	clippy::too_many_lines,
-	clippy::unnecessary_wraps
+	clippy::unnecessary_wraps,
+	dead_code,
+	unused_macros
 )]
