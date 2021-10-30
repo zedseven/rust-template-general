@@ -3,7 +3,7 @@ name = "{{project-name}}"
 version = "0.1.0"
 authors = ["{{authors}}"]
 edition = "2021"
-license = "MIT"
+license = "MIT OR APACHE-2.0"
 description = "{{description}}"
 {% if crate_type == "bin" %}
 [profile.release]
