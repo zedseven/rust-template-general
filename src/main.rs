@@ -27,5 +27,5 @@
 
 // Entry Point
 fn main() {
-	println!("Hello, world! This is {{project-name}}! 🦀");
+	println!("Hello, world! This is {{project-name}}! \u{1f980}");
 }
