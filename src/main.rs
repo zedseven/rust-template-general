@@ -1,6 +1,6 @@
 //! {{description}}
 
-// Linting rules
+// Linting Rules
 #![warn(
 	clippy::complexity,
 	clippy::correctness,
