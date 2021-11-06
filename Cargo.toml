@@ -4,10 +4,14 @@ version = "0.1.0"
 authors = ["{{authors}}"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/{{username}}/{{project-name}}"
+homepage = "https://github.com/{{username}}/{{project-name}}"
 description = "{{description}}"
 {% if crate_type == "bin" %}
 [profile.release]
 codegen-units = 1
 lto = true
+{% else %}categories = [] # https://crates.io/categories
+keywords = []
 {% endif %}
 [dependencies]
