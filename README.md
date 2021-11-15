@@ -1,8 +1,8 @@
 # {{project-name}}
 [![License: MIT/Apache-2.0](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE-MIT)
-[![# Issues](https://img.shields.io/github/issues/{{username}}/{{project-name}}?logo=github)](https://github.com/{{username}}/{{project-name}}/issues)
-{% if crate_type == "lib" %}[![Crates.io](https://img.shields.io/crates/v/{{project-name}}?logo=rust)](https://crates.io/crates/{{project-name}})
-[![Crate Downloads](https://img.shields.io/crates/d/{{project-name}}?logo=azure-artifacts)](https://crates.io/crates/{{project-name}})
+[![# Issues](https://img.shields.io/github/issues/{{username}}/{{project-name}}.svg?logo=github)](https://github.com/{{username}}/{{project-name}}/issues)
+{% if crate_type == "lib" %}[![Crates.io](https://img.shields.io/crates/v/{{project-name}}.svg?logo=rust)](https://crates.io/crates/{{project-name}})
+[![Crate Downloads](https://img.shields.io/crates/d/{{project-name}}.svg?logo=azure-artifacts)](https://crates.io/crates/{{project-name}})
 {% endif %}
 {{description}}
 
