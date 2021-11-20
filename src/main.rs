@@ -4,13 +4,21 @@
 #![warn(
 	clippy::complexity,
 	clippy::correctness,
-	clippy::dbg_macro,
+	clippy::pedantic,
 	clippy::perf,
 	clippy::style,
 	clippy::suspicious,
-	clippy::pedantic,
+	clippy::clone_on_ref_ptr,
+	clippy::dbg_macro,
+	clippy::decimal_literal_representation,
+	clippy::exit,
 	clippy::filetype_is_file,
-	clippy::str_to_string
+	clippy::if_then_some_else_none,
+	clippy::non_ascii_literal,
+	clippy::self_named_module_files,
+	clippy::str_to_string,
+	clippy::undocumented_unsafe_blocks,
+	clippy::wildcard_enum_match_arm,
 )]
 #![allow(
 	clippy::cast_possible_truncation,
